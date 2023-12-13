@@ -1,0 +1,19 @@
+.container {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 5px;
+    display: block;
+    align-items: center;
+}
+
+.numberscamp{
+    display: flex;
+    flex-direction: column;
+    width: 10rem;
+    align-items: center;   
+}
+
+.buttoncontainer{
+    display: flex;
+    width: 10rem
+}
