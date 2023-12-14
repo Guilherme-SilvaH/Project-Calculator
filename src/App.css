@@ -1,19 +1,59 @@
-.container {
-    background-color: #f0f0f0;
-    padding: 20px;
-    border-radius: 5px;
-    display: block;
-    align-items: center;
-}
-
-.numberscamp{
+.containerAll {
     display: flex;
     flex-direction: column;
-    width: 10rem;
-    align-items: center;   
-}
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Define a altura da tela inteira */
+  }
+  
+  .containerInf {
+  
+    text-align: center;
+    border: 5px solid rgba(0, 0, 0, 0.884);
+    border-radius: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.082);
+  }
+  
+  .numberscamp {
+    margin-top: 30px;
+    width: 100%;
+    max-width: 400px;
+  }
 
-.buttoncontainer{
+  .buttonStyle{
+    background-color: 'white';
+    padding: '8px 16px';
+    border: '1px solid #ccc'; 
+    border-radius: '4px';
+    cursor: pointer;
+  }
+  
+  input {
+    text-align: center;
+    margin-top: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  
+
+  .openedHistory {
+    text-align: center;
     display: flex;
-    width: 10rem
-}
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .result{
+    margin-top: 10px 10px;
+  }
+  
+  .result button {
+    box-sizing: border-box;
+    margin-bottom: 10px;
+  }
+
+  
